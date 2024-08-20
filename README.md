@@ -37,11 +37,3 @@ The output is text based in the following format for each binding:
         Consumer: <consumer name><consumer execution details>
         Filter: <filter name><filter listener details>
 ```
-
-# Contact
-David Pany - Mandiant (FireEye) - 2017
-
-Twitter: @DavidPany
-
-Please send  comments, bug reports, and questions to @DavidPany or push changes directly to GitHub
-
