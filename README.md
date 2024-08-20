@@ -1,8 +1,10 @@
 # WMI_Forensics
-This repository contains scripts used to find evidence in WMI repositories, specifically OBJECTS.DATA files located at:
+This repository is a fork of David Pany's [WMI_Persistence](https://github.com/davidpany/WMI_Forensics). It contains scripts used to find evidence in WMI repositories, specifically OBJECTS.DATA files located at:
 
 - C:\WINDOWS\system32\wbem\Repository\OBJECTS.DATA
 - C:\WINDOWS\system32\wbem\Repository\FS\OBJECTS.DATA
+
+The fork contains `PyWMIPersistenceFinder-python3.py` which is updated for Python3's byte strings.
 
 ## CCM_RUA_Finder.py
 CCM_RUA_finder.py extracts SCCM software metering RecentlyUsedApplication logs from OBJECTS.DATA files.
